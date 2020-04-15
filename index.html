@@ -6,10 +6,13 @@
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
 	<meta name="description" content="Jake Lees Portfolio">
 	<meta name="keywords" content="svelte|javascript|node|portfolio|resume|cv">
-
+	<meta name="theme-color" content="#222">
+	
 	<title>Jake Lees</title>
-
+	
+	<link rel="manifest" href="/manifest.webmanifest">
 	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel="apple-touch-icon" href="/images/icons/apple.png">
 	<link rel='stylesheet' href='/styles/oris.css'>
 </head>
 
@@ -164,6 +167,19 @@
 			</div>
 		</div>
 	</main>
+	<script async>
+		if ("serviceWorker" in navigator) {
+			if (!navigator.serviceWorker.controller) {
+				navigator.serviceWorker
+					.register("sw.js", {
+						scope: "./"
+					})
+					.catch(err => {
+						console.error("Failed to register service worker", err)
+					})
+			}
+		}
+	</script>
 </body>
 
 </html>
