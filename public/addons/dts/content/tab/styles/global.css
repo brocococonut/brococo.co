@@ -1,0 +1,76 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+}
+
+.grid-container {
+  width: 100%;
+  height: 100vh;
+  padding: 3px;
+  box-sizing: border-box;
+  display: block
+}
+
+.grid {
+  width: auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-gap: 3px;
+}
+ul.ticketList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.ticket {
+  width: 100%;
+  font-size: 12px;
+  min-width: 600px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 2px;
+  display: grid;
+  grid-template-areas:  "location title       account group     status"
+                        ".        escalation  owner   wait      wait"
+                        "created  created     server  staff     staff"
+                        "modified modified    tier    autoclose yellow";
+  grid-template-columns: 45px     4fr         3fr     2fr   1fr;
+}
+
+main.dark .ticket:nth-child(2n) {
+  background-color: #3a3a3a;
+}
+
+.ticket:not(:last-child) {
+  border-bottom: none;
+}
+.ticket:first-child {
+  border-top: none;
+}
+.ticket > * {padding: 0 2px}
+.ticket .location {grid-area: location}
+.ticket .title {grid-area: title; word-break: break-all;}
+.ticket .account {grid-area: account}
+.ticket .created {grid-area: created}
+.ticket .status {grid-area: status}
+.ticket .serviceNow {grid-area: serviceNow}
+.ticket .owner {grid-area: owner}
+.ticket .modified {grid-area: modified}
+.ticket .staff {grid-area: staff}
+.ticket .server {grid-area: server}
+.ticket .group {grid-area: group}
+.ticket .wait {grid-area: wait}
+.ticket .yellow {grid-area: yellow}
+.ticket .tier {grid-area: tier}
+.ticket .escalation {grid-area: escalation}
+.ticket .autoclose {grid-area: autoclose}
+
+.notePre {
+  max-width: 100%;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  margin: 2px
+}

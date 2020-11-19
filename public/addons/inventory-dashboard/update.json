@@ -1,0 +1,28 @@
+{
+  "addons": {
+    "inventory-dashboard@JakeLees-IBMCloud": {
+      "updates": [
+        {
+          "version": "0.5",
+          "update_link": "https://brococo.co/addons/inventory-dashboard/update-files/inventory_dashboard-0.5-an+fx.xpi"
+        },
+        {
+          "version": "0.6",
+          "update_link": "https://brococo.co/addons/inventory-dashboard/update-files/inventory_dashboard-0.6-an+fx.xpi"
+        },
+        {
+          "version": "0.7",
+          "update_link": "https://brococo.co/addons/inventory-dashboard/update-files/inventory_dashboard-0.7-an+fx.xpi"
+        },
+        {
+          "version": "0.8",
+          "update_link": "https://brococo.co/addons/inventory-dashboard/update-files/inventory_dashboard-0.8-an+fx.xpi"
+        },
+        {
+          "version": "0.9",
+          "update_link": "https://brococo.co/addons/inventory-dashboard/update-files/inventory_dashboard-0.9-an+fx.xpi"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "addons": {
+    "inv-dash@JakeLees-IBMCloud": {
+      "updates": [
+        {
+          "version": "3.3.0",
+          "update_link": "https://brococo.co/addons/inv-dash/updates/inv_dash-3.3.0-an+fx.xpi"
+        },
+        {
+          "version": "3.3.1",
+          "update_link": "https://brococo.co/addons/inv-dash/updates/inv_dash-3.3.1-an+fx.xpi"
+        },
+        {
+          "version": "3.3.2",
+          "update_link": "https://brococo.co/addons/inv-dash/updates/inv_dash-3.3.2-an+fx.xpi"
+        }
+      ]
+    }
+  }
+}

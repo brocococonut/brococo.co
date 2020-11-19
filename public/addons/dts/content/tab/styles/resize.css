@@ -1,0 +1,55 @@
+.resizers {
+    box-sizing: border-box;
+    position: fixed;
+    border: 3px solid #fa1111;
+    z-index: 10;
+}
+
+.resizers .resizer {
+    width: 10px;
+    height: 10px;
+    /*magic to turn square into circle*/
+    background: white;
+    border: 3px solid #fa1111;
+    position: fixed;
+    z-index: 100;
+}
+
+.resizers .resizer.top-left {
+    cursor: nwse-resize;
+}
+
+.resizers .resizer.top-right {
+    cursor: nesw-resize;
+}
+
+.resizers .resizer.bottom-left {
+    cursor: nesw-resize;
+}
+
+.resizers .resizer.bottom-right {
+    cursor: nwse-resize;
+}
+.resizers .resizer.center {
+    background-color: transparent;
+    border: none;
+    cursor: grab;
+}
+
+.grid-template {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.grid-template .template {
+    border: solid 2px rgba(33, 33, 33, 0.4);
+    background-color: rgba(80, 80, 80, 0.1);
+    z-index: 2000;
+    pointer-events: none;
+}
+
+.dark .grid-template .template {
+    border: solid 2px rgba(200, 200, 200, 0.4);
+    background-color: rgba(240, 240, 240, 0.1);
+}

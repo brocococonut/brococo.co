@@ -1,0 +1,170 @@
+{
+  "addons": {
+    "sbt-dts@JakeLees-IBMCloud": {
+      "updates": [{
+        "version": "3.0.0",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.0.0-an+fx.xpi"
+      },
+      {
+        "version": "3.0.1",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.0.1-an+fx.xpi"
+      },
+      {
+        "version": "3.0.2",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.0.2-an+fx.xpi"
+      },
+      {
+        "version": "3.1.0",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.1.0-an+fx.xpi"
+      },
+      {
+        "version": "3.2.0",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.2.0-an+fx.xpi"
+      },
+      {
+        "version": "3.2.1",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.2.1-an+fx.xpi"
+      },
+      {
+        "version": "3.2.2",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.2.2-an+fx.xpi"
+      },
+      {
+        "version": "3.2.3",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.2.3-an+fx.xpi"
+      },
+      {
+        "version": "3.2.4",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.2.4-an+fx.xpi"
+      },
+      {
+        "version": "3.2.5",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.2.5-an+fx.xpi"
+      },
+      {
+        "version": "3.3.0",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.3.0-an+fx.xpi"
+      },
+      {
+        "version": "3.3.1",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.3.1-an+fx.xpi"
+      },
+      {
+        "version": "3.3.2",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.3.2-an+fx.xpi"
+      },
+      {
+        "version": "3.3.3",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.3.3-an+fx.xpi"
+      },
+      {
+        "version": "3.4.0",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.4.0-an+fx.xpi"
+      },
+      {
+        "version": "3.5.0",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.5.0-an+fx.xpi"
+      },
+      {
+        "version": "3.5.2",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.5.2-an+fx.xpi"
+      },
+      {
+        "version": "3.6.1",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.6.1-an+fx.xpi"
+      },
+      {
+        "version": "3.6.2",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.6.2-an+fx.xpi"
+      },
+      {
+        "version": "3.6.3",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.6.3-an+fx.xpi"
+      },
+      {
+        "version": "3.6.4",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.6.4-an+fx.xpi"
+      },
+      {
+        "version": "3.6.5",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.6.5-an+fx.xpi"
+      },
+      {
+        "version": "3.6.6",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.6.6-an+fx.xpi"
+      },
+      {
+        "version": "3.7.1",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.7.1-an+fx.xpi"
+      },
+      {
+        "version": "3.7.2",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.7.2-an+fx.xpi"
+      },
+      {
+        "version": "3.7.3",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.7.3-an+fx.xpi"
+      },
+      {
+        "version": "3.7.4",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-3.7.4-an+fx.xpi"
+      },
+      {
+        "version": "4.0.0",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.0.0-an+fx.xpi"
+      },
+      {
+        "version": "4.0.1",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.0.1-an+fx.xpi"
+      },
+      {
+        "version": "4.0.2",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.0.2-an+fx.xpi"
+      },
+      {
+        "version": "4.0.3",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.0.3-an+fx.xpi"
+      },
+      {
+        "version": "4.0.4",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.0.4-an+fx.xpi"
+      },
+      {
+        "version": "4.0.6",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.0.6-an+fx.xpi"
+      },
+      {
+        "version": "4.1.0",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.1.0-an+fx.xpi"
+      },
+      {
+        "version": "4.1.2",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.1.2-an+fx.xpi"
+      },
+      {
+        "version": "4.1.4",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.1.4-an+fx.xpi"
+      },
+      {
+        "version": "4.2.0",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.2.0-an+fx.xpi"
+      },
+      {
+        "version": "4.2.1",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.2.1-an+fx.xpi"
+      },
+      {
+        "version": "4.2.3",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.2.3-an+fx.xpi"
+      },
+      {
+        "version": "4.2.4",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.2.4-an+fx.xpi"
+      },
+      {
+        "version": "4.2.6",
+        "update_link": "https://brococo.co/addons/dts/sbt_dts-4.2.6-an+fx.xpi"
+      }]
+    }
+  }
+}
