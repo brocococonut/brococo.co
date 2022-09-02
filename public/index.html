@@ -3,19 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Jake Lees Portfolio" />
-    <meta
-      name="keywords"
-      content="svelte|javascript|node|portfolio|resume|cv"
-    />
     <meta name="theme-color" content="#222" />
+    
+    <meta name="title" content="brococo.co">
+    <meta name="description" content="Portfolio for Jake Lees (BROCOCO)">
+    <meta name="keywords" content="svelte,javascript,node,portfolio,resume,cv,sveltekit,deno,supabase">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Jake Lees">
+
 
     <title>Jake Lees</title>
 
     <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/images/icons/apple.png" />
+    <link rel="icon" type="image/png" href="/favicon.webp" />
+    <link rel="apple-touch-icon" href="/images/icons/apple.webp" />
     <link rel="stylesheet" href="/styles/oris.css" />
+    <link rel="canonical" href="https://brococo.co/" />
     <style>
       :root {
         --th-background: #13141a;
@@ -25,7 +30,7 @@
         max-width: 120rem;
         margin: 0 auto;
       }
-      .card-body li a {
+      .card-body li a, .card-body p a {
         text-decoration: underline !important;
       }
     </style>
@@ -43,7 +48,7 @@
                   <!-- Profile picture -->
                   <div class="cs2 cm2 cl3">
                     <div class="media-card">
-                      <img src="/images/me.png" alt="Jake Lees" />
+                      <img src="/images/me.webp" alt="Jake Lees"/>
                     </div>
                   </div>
 
@@ -54,6 +59,11 @@
                         <h2>Links</h2>
                       </div>
                       <div class="card-body">
+                        <p>
+                          <a href="mailto:jake@brococo.co"
+                            >Email &lt;Click to email&gt;</a
+                          >
+                        </p>
                         <p>
                           <a href="https://github.com/brocococonut"
                             >Github &lt;@brocococonut&gt;</a
@@ -141,7 +151,7 @@
                             href="https://github.com/brocococonut/SLAPIWrapper"
                             target="_blank"
                             rel="noopener noreferrer"
-                            >here</a
+                            >&lt;brocococonut/SLAPIWrapper&gt;</a
                           >
                         </p>
                         <p>
@@ -181,7 +191,10 @@
                     </a>
                     <div class="details-container">
                       <div class="card-details media-title">
-                        <span>Max Lees Books</span>
+                        <span><strong>Title: </strong>Max Lees Books</span>
+                      </div>
+                      <div class="card-details media-title">
+                        <span><strong>Type: </strong><i>Website</i></span>
                       </div>
                       <div class="card-details">
                         <p>
@@ -201,11 +214,16 @@
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src="/images/projects/memsdb.png" alt="memsdb" />
+                      <img src="/images/projects/memsdb.webp" alt="memsdb" />
                     </a>
                     <div class="details-container">
                       <div class="card-details media-title">
-                        <span>MemsDB</span>
+                        <span><strong>Title: </strong>MemsDB</span>
+                      </div>
+                      <div class="card-details media-title">
+                        <span
+                          ><strong>Type: </strong><i>Database/Utility</i></span
+                        >
                       </div>
                       <div class="card-details">
                         <p>
@@ -226,11 +244,14 @@
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src="/images/projects/oris.png" alt="oris" />
+                      <img src="/images/projects/oris.webp" alt="oris" />
                     </a>
                     <div class="details-container">
                       <div class="card-details media-title">
-                        <span>Oris</span>
+                        <span><strong>Title: </strong>Oris</span>
+                      </div>
+                      <div class="card-details media-title">
+                        <span><strong>Type: </strong><i>CSS/Utility</i></span>
                       </div>
                       <div class="card-details">
                         <p>
@@ -250,11 +271,14 @@
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src="/images/projects/toast.png" alt="toast" />
+                      <img src="/images/projects/toast.webp" alt="toast" />
                     </a>
                     <div class="details-container">
                       <div class="card-details media-title">
-                        <span>Toast.js</span>
+                        <span><strong>Title: </strong>Toast.js</span>
+                      </div>
+                      <div class="card-details media-title">
+                        <span><strong>Type: </strong><i>Utility</i></span>
                       </div>
                       <div class="card-details">
                         <p>
@@ -275,13 +299,16 @@
                       rel="noopener noreferrer"
                     >
                       <img
-                        src="/images/projects/waveline-go.png"
+                        src="/images/projects/waveline-go.webp"
                         alt="waveline-server-go"
                       />
                     </a>
                     <div class="details-container">
                       <div class="card-details media-title">
-                        <span>Waveline Server - Golang</span>
+                        <span><strong>Title: </strong>Waveline Server - Golang</span>
+                      </div>
+                      <div class="card-details media-title">
+                        <span><strong>Type: </strong><i>API</i></span>
                       </div>
                       <div class="card-details">
                         <p>
@@ -308,13 +335,16 @@
                       rel="noopener noreferrer"
                     >
                       <img
-                        src="/images/projects/waveline-svelte.png"
+                        src="/images/projects/waveline-svelte.webp"
                         alt="waveline-client-svelte"
                       />
                     </a>
                     <div class="details-container">
                       <div class="card-details media-title">
-                        <span>Waveline Client - Svelte</span>
+                        <span><strong>Title: </strong>Waveline Client - Svelte</span>
+                      </div>
+                      <div class="card-details media-title">
+                        <span><strong>Type: </strong><i>API Client</i></span>
                       </div>
                       <div class="card-details">
                         <p>
